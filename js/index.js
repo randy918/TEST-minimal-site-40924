@@ -1,15 +1,17 @@
 
 const entries = document.querySelectorAll('p');
-console.log(entries);
 
-entries.forEach (entry => {
+console.log(entries[0]);
 
-if (entry.includes('error')) {
+entries.forEach(entry => {
+
+if (entry.textContent.includes('error')) {
 entry.classList.add('error');
 }
 
-if (entry.includes('success')) {
+if (entry.textContent.includes('success')) {
 entry.classList.add('success');
 }
 
     });
+x.classList.add('');
