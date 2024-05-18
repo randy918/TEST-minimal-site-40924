@@ -7,10 +7,24 @@
   src: url("../fonts/Acorn-Light.woff");
 }
 * {
-  background: red;
-  block: inline-block;
+  background: tan;
   font-family: "Light";
-  background: red;
   color: black;
   text-align: center;
+}
+
+.error {
+  padding: 10px;
+  color: crimson;
+  border: 1px dotted crimson;
+}
+
+.success {
+  padding: 10px;
+  color: limegreen;
+  border: 1px dotted limegreen;
+}
+
+.redtest {
+  color: red;
 }/*# sourceMappingURL=index.css.map */

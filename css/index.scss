@@ -1,21 +1,38 @@
-@font-face { 
-    font-family: "Bold"; 
-    src: url("../fonts/Acorn-Bold.woff"); 
-  }
-@font-face { 
-    font-family: "Light"; 
-    src: url("../fonts/Acorn-Light.woff"); 
-  }
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/Acorn-Bold.woff");
+}
+
+@font-face {
+  font-family: "Light";
+  src: url("../fonts/Acorn-Light.woff");
+}
 
 * {
-    background: red;
-    // block: inline-block;
-    font-family: "Light"; 
-    background: red;
-    color: black;
-   
-    text-align: center;
-   
+  background: tan;
+  // block: inline-block;
+  font-family: "Light";
+  color: black;
+
+  text-align: center;
+
 
 }
 
+.error {
+  padding: 10px;
+  color: crimson;
+  border: 1px dotted crimson;
+}
+
+.success {
+  padding: 10px;
+  color: limegreen;
+  border: 1px dotted limegreen;
+}
+
+.redtest {
+
+  color: red;
+
+}
