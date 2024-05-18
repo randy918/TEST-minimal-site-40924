@@ -1,17 +1,10 @@
+const items = document.querySelectorAll('li');
 
-const entries = document.querySelectorAll('p');
+items.forEach (item => {
 
-console.log(entries[0]);
+item.addEventListener('click', e => {
 
-entries.forEach(entry => {
+    console.log(e);
 
-if (entry.textContent.includes('error')) {
-entry.classList.add('error');
 }
-
-if (entry.textContent.includes('success')) {
-entry.classList.add('success');
-}
-
-    });
-x.classList.add('');
+)});
